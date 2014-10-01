@@ -5,17 +5,18 @@ import Item = items.Item;
 export import Promise = when.Promise;
 
 class Split {
-	public items: Item[];
+	public items: Item[] = [];
 	public total = 0;
 }
 
 class Splits {
-	public sets: Split[];
+	public sets: Split[] = [];
 	public currentSet = new Split();
 }
 
-export class Waiter {
-	constructor(public maxCapacity: number) {
+export class Waiter extends items.Worker {
+	constructor(name: string, public maxCapacity: number) {
+		super(name);
 	}
 
 	public serveItems(items: Promise<Item>[]) {

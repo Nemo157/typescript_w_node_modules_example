@@ -1,6 +1,7 @@
 {
   "name": "waiter",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "typescript": {
     "definition": "dist/index.d.ts"
   },

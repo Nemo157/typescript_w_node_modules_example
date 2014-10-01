@@ -1,11 +1,13 @@
 {
-  "name": "cafe",
+  "name": "cook",
   "version": "1.0.0",
+  "main": "src/index.js",
   "typescript": {
     "main": "src/index.ts"
   },
   "dependencies": {
-    "items": "../items"
+    "items": "../items",
+    "when": "3.3.1"
   },
   "devDependencies": {
   }
