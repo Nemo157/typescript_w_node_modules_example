@@ -1,0 +1,12 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "typescript": {
+    "main": "src/index.ts"
+  },
+  "dependencies": {
+    "items": "../items"
+  },
+  "devDependencies": {
+  }
+}

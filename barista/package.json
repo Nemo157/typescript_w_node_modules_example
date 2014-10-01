@@ -1,0 +1,18 @@
+{
+  "name": "barista",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typescript": {
+    "main": "src/index.js"
+  },
+  "scripts": {
+    "build": "tsc --module commonjs --outDir dist --sourceMap src/index.ts"
+  },
+  "dependencies": {
+    "when": "3.3.1",
+    "items": "../items"
+  },
+  "devDependencies": {
+    "typescript": "https://github.com/Nemo157/TypeScript/releases/download/v1.1.0-nodemodules/typescript-1.1.0-nodemodules.tgz"
+  }
+}

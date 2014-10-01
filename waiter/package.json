@@ -1,0 +1,17 @@
+{
+  "name": "waiter",
+  "version": "1.0.0",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc --module commonjs --outDir dist --declaration --sourceMap src/index.ts"
+  },
+  "dependencies": {
+    "when": "3.4.6",
+    "items": "../items"
+  },
+  "devDependencies": {
+    "typescript": "https://github.com/Nemo157/TypeScript/releases/download/v1.1.0-nodemodules/typescript-1.1.0-nodemodules.tgz"
+  }
+}

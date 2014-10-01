@@ -1,0 +1,20 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "gulp default"
+  },
+  "dependencies": {
+    "waiter": "../waiter",
+    "barista": "../barista",
+    "cook": "../cook"
+  },
+  "devDependencies": {
+    "browserify": "~5.12.0",
+    "gulp": "~3.8.8",
+    "vinyl-source-stream": "~1.0.0",
+    "minifyify": "~4.2.0",
+    "tsify": "~0.4.0"
+  }
+}
