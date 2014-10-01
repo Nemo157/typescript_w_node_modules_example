@@ -34,11 +34,15 @@ interact.
 ## Dependency Tree
 
     cafe
+    ├── when@3.3.1
     ├── waiter
+    │   ├── when@3.4.6
     │   └── items
     ├── cook
+    │   ├── when@3.3.1
     │   └── items
     └── barista
+        ├── when@3.3.1
         └── items
 
 ## Standards
