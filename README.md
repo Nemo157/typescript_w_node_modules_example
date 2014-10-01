@@ -1,9 +1,34 @@
-## Overview
+# Overview
 
 This repository contains an example set of packages for proposed solution to
-Microsoft/typescript#247. Each package uses a different development standard,
-but by make tsc lenient on what it accepts it should be possible for (almost)
-all of these standards to nicely interact.
+[Microsoft/typescript#247](https://github.com/Microsoft/TypeScript/issues/247).
+Each package uses a different development standard, but by making tsc lenient on
+what it accepts it should be possible for all of these standards to nicely
+interact.
+
+## Quick Start
+
+    pushd waiter
+    npm install
+    npm run build
+    popd
+
+    pushd cook
+    npm install
+    npm run build
+    popd
+
+    pushd cafe
+    npm install
+    npm run build
+    popd
+
+## Rebuilding
+
+    rm -r */node_modules
+    # Follow Quick Start above
+
+# Details
 
 ## Dependency Tree
 
