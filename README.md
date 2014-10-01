@@ -21,6 +21,7 @@ interact.
     pushd cafe
     npm install
     npm run build
+    node src/index.js
     popd
 
 ## Rebuilding
